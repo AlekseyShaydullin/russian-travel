@@ -2,8 +2,10 @@
   /*width: 984px;
   height: 660;*/
   display: grid;
-  grid-template-columns: 1fr 1fr minmax(min-content, max-content);
-  grid-template-rows: 1fr 1fr minmax(min-content, max-content);
+  /*grid-template-columns: 1fr 1fr fit-content(460px);
+  grid-template-rows: 1fr 1fr fit-content(460px);*/
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
   gap: 40px 48px;
   grid-template-areas:
   "place__title place__website"
