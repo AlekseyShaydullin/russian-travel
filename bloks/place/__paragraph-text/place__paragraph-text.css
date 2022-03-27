@@ -1,0 +1,14 @@
+.place__paragraph-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+}
+
+.place__paragraph-text:first-of-type {
+  padding-bottom: 26px;
+}
+
+.place__paragraph-text:last-of-type {
+  padding-bottom: 0;
+}

@@ -1,13 +1,13 @@
 .place {
-  /*width: 984px;
-  height: 660;*/
+  padding-top: 80px;
   display: grid;
-  /*grid-template-columns: 1fr 1fr fit-content(460px);
-  grid-template-rows: 1fr 1fr fit-content(460px);*/
-  grid-template-columns: repeat(2, min-content);
-  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: min-content minmax(min-content, max-content);
   gap: 40px 48px;
   grid-template-areas:
   "place__title place__website"
   "place__image place__paragraph"
+}
+
+.place:first-of-type {
+  padding-top: 0;
 }
