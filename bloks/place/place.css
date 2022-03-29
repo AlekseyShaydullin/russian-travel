@@ -11,3 +11,14 @@
 .place:first-of-type {
   padding-top: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    gap: 32px;
+    grid-template-areas:
+    "place__title"
+    "place__website"
+    "place__image"
+    "place__paragraph"
+  }
+}
