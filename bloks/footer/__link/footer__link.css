@@ -13,10 +13,11 @@
 }
 
 .footer__link:hover {
-  opacity: .6;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__link {
     padding-right: 0;
     padding-bottom: 32px;

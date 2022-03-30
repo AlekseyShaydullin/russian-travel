@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /*display: block;*/
   color: #fff;
   text-decoration: none;
   position: absolute;
@@ -20,7 +19,8 @@
 }
 
 .cover__overlay:hover {
-  opacity: .3;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,8 +48,7 @@
   }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 565px) {
   .cover__overlay {
     max-width: 100%;
     min-height: 200px;

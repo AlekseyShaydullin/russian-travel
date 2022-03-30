@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 565px) {
   .cover {
     max-width: 100vw;
     height: 200px;
