@@ -1,6 +1,19 @@
 .cover {
+  width: 92.5%;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 92px 48px 0;
   text-align: center;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding: 66px 0 0;
+  }
 }
