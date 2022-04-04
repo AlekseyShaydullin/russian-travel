@@ -1,0 +1,15 @@
+.header__lang-link {
+  transition: opacity .1s linear;
+}
+
+.header__lang-link:hover {
+  opacity: .6;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+  margin: 0;
+}
