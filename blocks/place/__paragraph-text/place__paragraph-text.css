@@ -1,12 +1,13 @@
 .place__paragraph-text {
   margin: 0;
+  display: flex;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 26px;
   font-weight: 400;
 }
 
-.place__paragraph-text:first-of-type {
-  padding-bottom: 26px;
+.place__paragraph-text:nth-child(2n) {
+  padding-top: 26px;
 }
 
 .place__paragraph-text:last-of-type {
@@ -14,18 +15,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraph-text:first-of-type {
-    padding-bottom: 27px;
+  .place__paragraph-text {
+    line-height: 29px;
+  }
+
+  .place__paragraph-text:nth-child(2n) {
+    padding-top: 27px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph-text {
+    line-height: 26px;
     font-size: 16px;
   }
 
-  .place__paragraph-text:first-of-type {
-    padding-bottom: 25px;
+  .place__paragraph-text:nth-child(2n) {
+    padding-top: 25px;
   }
 }
 
