@@ -1,4 +1,5 @@
 .header__lang-link {
+  margin-bottom: 6px;
   transition: opacity .1s linear;
 }
 
@@ -12,16 +13,5 @@
 
 .header__lang-link:last-of-type {
   margin: 0;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-link {
-    margin-bottom: 6px;
-  }
-
-  .header__lang-link:last-of-type {
-    margin: 0;
-    margin-bottom: 6px;
-  }
-
+  margin-bottom: 6px;
 }

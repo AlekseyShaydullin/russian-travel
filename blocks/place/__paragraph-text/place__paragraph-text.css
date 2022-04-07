@@ -1,8 +1,9 @@
 .place__paragraph-text {
   margin: 0;
+  max-width: 484px;
   display: flex;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 29px;
   font-weight: 400;
 }
 
@@ -35,10 +36,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 345px) {
   .place__paragraph-text {
     padding-left: 16px;
     padding-right: 16px;
+    width: 288px;
   }
 }
-
