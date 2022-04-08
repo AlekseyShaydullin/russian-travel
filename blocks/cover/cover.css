@@ -3,9 +3,12 @@
   padding: 245px 0;
   text-align: center;
   box-sizing: border-box;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   position: relative;
   z-index: 1;
-  background: #2a2c2f;
   transition: opacity .1s linear;
 }
 
@@ -32,3 +35,4 @@
     min-height: 200px;
   }
 }
+
